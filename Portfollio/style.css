@@ -1,0 +1,200 @@
+body{
+    background-color:#f4f4f4;
+    color:#555555;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    /*Same as above */
+    font:normal 16px Arial,Helvetica,
+    sans-serif; 
+    margin: 0;
+}
+.main-body{
+    margin: 5%;
+    margin-top: 10%;
+}
+nav{
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top:0px;
+    border-bottom:3px solid #555555;
+    background-color: silver;
+    padding: 0 1em ;
+}
+nav a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.nav-link-list{
+    margin-right: 2em;
+    justify-content: space-around;
+}
+.nav-link-list li{
+    list-style: none;
+    display: inline;
+    padding: 0.5em;
+}
+.button{
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border:none;
+}
+.button:hover{
+    text-decoration: none;
+    background-color: gray;
+    color: #fff;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.head h1{
+    font-size: 78px;
+    margin: 0;
+    margin-top: 15%;
+}
+.head h2{
+    font-size: 46px;
+    margin-bottom: 50%;
+}
+.intro{
+    display: flex;
+    margin-bottom: 70%;
+    align-items: center;
+    justify-content: space-around;
+}
+.intro h2{
+    font-size: 46px;
+}
+.intro p{
+    font-size: 20px;
+}
+.Tech-stack{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 70%;
+}
+.Tech-stack h2{
+    font-size: 32px;
+    margin-bottom: 5%;
+}
+.stack-img{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    margin: 2em;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.projects h2{
+    font-size: 32px;
+}
+#pjts{
+    margin-bottom: 70%;
+    display: flex;
+    justify-content: center;
+}
+#pjts img{
+    width: 50%;
+}
+.container-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.LGIT{
+    font-size: 32px;
+    margin-bottom: 50%;
+}
+.resume{
+    margin: 5%;
+    border: #333 1px solid;
+    padding: 5%;
+}
+.CLP{
+    display: flex;
+}
+.contact-list {
+    margin-right: 2em;
+    justify-content: space-around;
+}
+.contact-list a{
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+}
+.contact-list a:hover{
+    text-decoration: underline;
+}
+.contact-list li{
+    display: inline;
+    padding: 1em;
+}
+
+.title{
+    font-size: 20px;
+}
+.sub-head{
+    font-size:17px ;
+}
+.container-2{
+    display: flex;
+    justify-content: flex-start;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15%;
+    background-color: #333;
+}
+footer ul{
+    margin-right: 2em;
+    justify-content: space-around;
+}
+footer li{
+    display: inline;
+    padding: 2em;
+}
+.fbutton{
+    font-size: 48px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 15px;
+    border:none;
+}
+.fbutton:hover{
+    background-color: #333;
+    color: #fff;
+}
+footer a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+footer p{
+    color: white;
+    margin-bottom: 10%;
+}
