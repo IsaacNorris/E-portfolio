@@ -8,35 +8,45 @@
     <title>index</title>
 </head>
 <body>
-    <nav>
-        <div class="back-home">
-            <a class="button" href="">I.N</a>
+    <div class="nav">
+        <nav>
+            <div class="back-home">
+                <a class="button" href="#section1">I.N</a>
+            </div>
+            <div class="nav-link-list" id="myLinks">
+                <ul>
+                    <li><a href="#section2">Who Am I</a></li>
+                    <li><a href="#section3">My Technical Skills</a></li>
+                    <li><a href="#section4">Some Of My Works</a></li>
+                    <li><a href="#section5">My Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                    <img src="/assets/Hamburger_icon.png" alt="HB">
+                </a>
+            </div>
         </div>
-        <div class="nav-link-list">
-            <ul>
-                <li><a href="">Who Am I</a></li>
-                <li><a href="">My Technical Skills</a></li>
-                <li><a href="">Some Of My Works</a></li>
-                <li><a href="">My Resume</a></li>
-            </ul>
-        </div>
-    </nav>
+    </div>
     <div class="main-body">
         <head>
-            <div class="head">
+            <div class="head" id="section1">
                 <h1>ISAAC NORRIS</h1>
                 <h2>Software Engineer</h2>
             </div>
         </head>
         <main>
-            <div class="intro">
+            <div class="intro" id="section2">
                 <h2>I'm a highly motivated software engineer with a strong passion for website development.</h2>
                 <div>
                     <p>Currently employed at Mcdonalds(not software related) and learning frontend development through frontend simplified. I work well and fast. I challenge myself daily on programming challenges and in creating my life through code.</p>
                     <p>I am continously working towards improving my knowledge and skills to develop technologies that can contribute to the betterment of society.</p>
                 </div>
             </div>
-            <div class="Tech-stack">
+            <div class="Tech-stack" id="section3">
                 <h2>This is my technology stack</h2>
                 <div>
                     <div class="stack-img">
@@ -52,13 +62,13 @@
                     </div>
                 </div>
             </div>
-        <div class="projects">
+        <div class="projects" id="section4">
             <h2>Here are some of my projects</h2>
             <div id="pjts">
                 <img src="/assets/Ruby.jpg" alt="Photo Of My Dog">
             </div>
         </div>
-        <div class="container-1">
+        <div class="container-1" id="section5">
             <div>
                 <h2 class="LGIT">Lets get in touch!</h2>
             </div>
@@ -70,7 +80,7 @@
                         <ul class="contact-list">
                             <li><a href="https://github.com/IsaacNorris" target="_blank">Github</a></li>
                             <li><a href="">Email</a></li>
-                            <li><a href="">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/in/isaac-norris-86a07b246/" target="_blank">LinkedIn</a></li>
                         </ul>
                     </div>
                     <p>A highly motivated software engineer prepared to utilise exceptional software, problem-solving and communication skills to further my programming passion as a website developer.</p>
@@ -151,18 +161,28 @@
 </div>
     <footer>
         <div>
-            <a class="fbutton" href="">I.N</a>
+            <a class="fbutton" href="#section1">I.N</a>
         </div>
         <br/>
         <div>
             <ul>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">LinkedIn</a></li>
+                <li><a href="https://github.com/IsaacNorris" target="_blank">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/isaac-norris-86a07b246/" target="_blank">LinkedIn</a></li>
                 <li><a href="">Email</a></li>
-                <li><a href="">Resume</a></li>
+                <li><a href="#section5">Resume</a></li>
             </ul>
         </div>
         <p>copyright &copy; Isaac Norris</p>
     </footer>
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myLinks");
+          if (x.style.display === "block") {
+            x.style.display = "none";
+          } else {
+            x.style.display = "block";
+          }
+        }
+    </script>
 </body>
 </html>
